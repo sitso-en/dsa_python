@@ -7,7 +7,7 @@ with a price less than or equal to budget."""
 
 
 def get_affordable_products(products, budget):
-    found = False #create a boool variable
+    found = False #create a boool variable set to false 
     for product in products:
         if product["price"] <= budget: #check if budget is equal to the available prices
             print(f"Name: {product['name']}, Price: {product['price']}") #extract from dictionary and print
