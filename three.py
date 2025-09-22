@@ -32,6 +32,7 @@ def extract_info():
     print(user["settings"]["theme"])
 
 def main():
+#call the function
     extract_info()
 
 if __name__ == "__main__":
