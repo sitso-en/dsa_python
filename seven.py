@@ -8,7 +8,7 @@ def apply_operation(lst, operation):
     if operation == "square":
         return [x**2 for x in lst] #list comprehension for squaring a number
     elif operation == "negate":
-        return[-x for x in lst] #list comprehension for negation
+        return[-x for x in lst] #list comprehension for negation.
     elif operation == "double":
         return[x*2 for x in lst] #list comprehension for doubling
 
