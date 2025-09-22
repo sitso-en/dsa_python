@@ -22,7 +22,7 @@ def group_by_category(items):
         category =item["category"]
         name = item["name"]
         
-        #create an empty list if category is no in the dictionary
+        #create an empty list if category is not in the dictionary
         if category not in categorised:
             categorised[category] = []
             #add one after the other the names of the items according to their categories
