@@ -9,7 +9,7 @@ Given a list of numbers, do the following using list comprehensions and built-in
 Example: 
 process_list([1,2,3,4,5]) # 12  """
 
-#per my understanding....
+#per my understanding
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 

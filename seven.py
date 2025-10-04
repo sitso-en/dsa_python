@@ -15,7 +15,7 @@ def apply_operation(lst, operation):
 def main():
     #take in numbers into a list, making them ints using the map function
     lst = list(map(int, input("List of numbers: ").split())) #every number is divided by a split
-    operation = input("Operations(Square, Double, Negate): ").lower() #force the user input to lower case
+    operation = input("Operations(Square, Double, Negate): ").lower() #change the user input to lower case
     print(apply_operation(lst, operation))
 
 if __name__ == "__main__":

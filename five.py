@@ -6,7 +6,7 @@ Example:
 merge_lists([1,2], [2,3], [3,4]) # [1,2,3,4] """
 
 def merge_lists(a, b, c):
-    return(list(set(a+b+c))) #add them as a set to allow for no duplicates although order is not guaranteed and print as a list
+    return(list(set(a+b+c))) #add them as a set to allow for no duplicates print as a list
 
 def main():
     a = [1, 2]

@@ -8,6 +8,7 @@ def capitalise_words(string):
     return string.title() #title capitalizes each word in a string
 
 def main():
+#display the output of the function
     print(capitalise_words(input("Enter a string: ")))
     
 if __name__ == "__main__":
