@@ -1,5 +1,4 @@
-""" 
-Question 4: List of Dictionaries 
+""" Question 4: List of Dictionaries 
 You have a list of products: 
 
 Write a function get_affordable_products(products, budget) that returns all products 
@@ -7,11 +6,11 @@ with a price less than or equal to budget."""
 
 
 def get_affordable_products(products, budget):
-    found = False #create a boool variable
+    found = False
     for product in products:
-        if product["price"] <= budget: #check if budget is equal to the available prices
-            print(f"Name: {product['name']}, Price: {product['price']}") #extract from dictionary and print
-            found = True #set found to be true in essence for else clause
+        if product["price"] <= budget:
+            print(f"Name: {product['name']}, Price: {product['price']}")
+            found = True
     if not found:
         print("There is no product in your budget here!")
 
