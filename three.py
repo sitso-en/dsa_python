@@ -26,7 +26,6 @@ user = {
 }
 
 def extract_info():
-    #user dictionary mathods to access and extract the name and email and theme the user
     print(user["profile"]["username"])
     print(user["profile"]["email"])
     print(user["settings"]["theme"])
