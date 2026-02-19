@@ -13,7 +13,6 @@ def apply_operation(lst, operation):
         return[x*2 for x in lst] #list comprehension for doubling
 
 def main():
-    #take in numbers into a list, making them ints using the map function
     lst = list(map(int, input("List of numbers: ").split())) #every number is divided by a split
     operation = input("Operations(Square, Double, Negate): ").lower() #force the user input to lower case
     print(apply_operation(lst, operation))
