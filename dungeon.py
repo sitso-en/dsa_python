@@ -1,7 +1,7 @@
 import random
 import sys
 
-player_name = input("What is your name? ")
+player_name = input("What is your name punk bitch? ")
 health: int = 100
 gold:int = 50
 inventory: list = ["sword"]
