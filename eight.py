@@ -1,4 +1,4 @@
-"""Question 8: Advanced Dictionary Manipulation 
+Advanced Dictionary Manipulation 
 Write a function group_by_category(items) that groups a list of dictionaries by a 
 category key. 
 Example: 
