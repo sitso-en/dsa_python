@@ -1,4 +1,4 @@
-"""Question 7: Higher Order Functions 
+""": Higher Order Functions 
 Write a function apply_operation(lst, operation) where operation can be "square", 
 "double", or "negate", and apply it to every element of the list. 
 Example: 
