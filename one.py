@@ -1,4 +1,4 @@
-"""Question 1: String Manipulation 
+"""String Manipulation 
 Write a function capitalize_words(sentence) that takes a string and capitalizes the first 
 letter of each word. 
  Example: 
