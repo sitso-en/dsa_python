@@ -1,5 +1,5 @@
 """: Higher Order Functions 
-Write a function apply_operation(lst, operation) where operation can be "square", 
+Write a fration(lst, operation) where operation can be "square", 
 "double", or "negate", and apply it to every element of the list. 
 Example: 
 apply_operation([1,2,3], "square") # [1,4,9] """
