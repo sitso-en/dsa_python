@@ -1,5 +1,5 @@
 """Question 9: Default & Safe Access 
-Write a function get_user_city(user) that safely returns a user’s city. If the city is missing, 
+Write a function get_user_city(user) that returns a user’s city. If the city is missing, 
 return "Unknown". 
 Example: 
 user1 = {"name": "John", "address": {"city": "Lagos"}} 
