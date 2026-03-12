@@ -79,7 +79,7 @@ def battle_monster():
 
 def open_chest():
     global inventory
-    reward = random.choice(["potion", "shield", "amulet"])
+    reward = random.choice(["shield", "potion", "amulet"])
     inventory.append(reward)
     print(f"You have found a chest containing a {reward}")
 
