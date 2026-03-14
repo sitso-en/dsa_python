@@ -1,6 +1,5 @@
 """Question 6: Sorting & Finding 
-Write a function second_largest(lst) that finds the second largest number in a list without 
-using sorted()."""
+Write a function second_largest(lst) that finds the second largest number in a list"""
 
 def second_largest(lst):
     largest = 0
