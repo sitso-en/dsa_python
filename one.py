@@ -1,8 +1,7 @@
 """String Manipulation 
 Write a function capitalize_words(sentence) that takes a string and capitalizes the first 
 letter of each word. 
- Example: 
- capitalize_words("hello world from python") # "Hello World From Python"""
+ """
 
 def capitalise_words(string):
     return string.title() #title capitalizes each word in a string
