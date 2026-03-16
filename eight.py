@@ -6,8 +6,7 @@ items = [
 {"name": "apple", "category": "fruit"}, 
 {"name": "carrot", "category": "vegetable"}, 
 {"name": "banana", "category": "fruit"} 
-] 
-group_by_category(items) 
+]  
 Returns: 
 { 
 } 
