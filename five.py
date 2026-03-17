@@ -1,7 +1,7 @@
 """"
 Question 5: *args and Set Union 
 Write a function merge_lists(*lists) that accepts multiple lists and merges them into a 
-single unique list (no duplicates). 
+single unique list. 
 Example: 
 merge_lists([1,2], [2,3], [3,4]) # [1,2,3,4] """
 
