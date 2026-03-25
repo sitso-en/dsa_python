@@ -1,6 +1,6 @@
 """Question 10 (Bonus: Async + HTTP Request) 
 Write an async function fetch_posts() that fetches posts from 
-https://jsonplaceholder.typicode.com/posts using aiohttp or httpx and prints 
+https://jsonplaceholder.typicode.com/posts using aiohttp and prints 
 the titles of the first 5 posts."""
 
 import asyncio
