@@ -1,4 +1,4 @@
-""" Question 4: List of Dictionaries 
+""" List of Dictionaries 
 You have a list of products: 
 
 Write a function get_affordable_products(products, budget) that returns all products 
