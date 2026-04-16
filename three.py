@@ -1,4 +1,4 @@
-"""Question 3: Dictionary Unpacking Equivalent 
+""": Dictionary Unpacking Equivalent 
 You are given this dictionary: 
 user = { 
     "id": 1, 
